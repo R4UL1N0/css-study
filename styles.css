@@ -1,0 +1,85 @@
+@import url('/styles/positions.css');
+@import url('/styles/shapes.css');
+@import url('/styles/sizes.css');
+@import url('/styles/rotations.css');
+@import url('/styles/colors.css');
+
+:root {
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    /* height: 100vh; */
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    padding: 30px 15px;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.page-one {
+    background-color: bisque;
+}
+
+.page-two {
+    background-color:goldenrod;
+}
+
+.text-frame {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.title {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    padding: 3em;
+}
+
+.title h1 {
+    font-size: 6em;
+    
+}
+
+@media screen and (max-width: 600px)  {
+    
+    /* .title h1 {
+        transform: scale(1, 4);
+    } */
+    
+}
+
+@media screen and (min-width: 1000px) {
+    /* .title {
+        grid-column: 2 / 3;
+        grid-row: 2;
+        padding: 3em;
+    }
+
+    .title h1 {
+        font-size: 9em;
+    } */
+}
+
+
+
+

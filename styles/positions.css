@@ -1,0 +1,34 @@
+.abs-top-right {
+    position: absolute;
+    top: 10%;
+    right: -10%;
+}
+
+.abs-top-center {
+    position: absolute;
+    top: -10%;
+    right: 30%;
+
+}
+
+.abs-left-center {
+    position: absolute;
+    top: 40%;
+    left: -5%;
+}
+
+.abs-center-left {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+/* .trans-right {
+    transform: translateX(100%);
+} */
+
+.abs-right-center-over {
+    position: absolute;
+    bottom: 15%;
+    right: -10%;
+}

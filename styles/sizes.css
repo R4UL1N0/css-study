@@ -1,0 +1,15 @@
+.small {
+    width: clamp(50px, 30vw, 200px);
+}
+
+.medium {
+    width: clamp(100px, 30vw, 350px);
+}
+
+.big {
+    width: clamp(250px, 30vw, 600px);
+}
+
+.giant {
+    width: clamp(500px, 30vw, 1000px);
+}

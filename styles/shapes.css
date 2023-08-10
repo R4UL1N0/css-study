@@ -1,0 +1,24 @@
+.ball {
+    aspect-ratio: 1;
+    background-color: chocolate;
+    border-radius: 50%;
+    
+}
+
+.square {
+    background-color: brown;
+    aspect-ratio: 1;
+}
+
+.rectangle {
+    background-color: brown;
+    aspect-ratio: 16 / 9;
+}
+
+.triangle {
+
+}
+
+.over-hidden {
+    overflow: hidden;
+}
