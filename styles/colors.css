@@ -1,3 +1,51 @@
 .bg-red {
     background-color: red;
 }
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: azure;
+}
+
+.white {
+    color: azure;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-flower-blue {
+    background-color: cornflowerblue;
+}
+
+.bg-dark-flower-blue {
+    background-color: rgb(76, 118, 197);
+}
+
+.bg-brown-red {
+    background-color: brown;
+}
+
+.bg-orange-choco {
+    background-color: chocolate;
+}
+
+.bg-burned-gold {
+    background-color:goldenrod;
+}
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.bg-light-blue {
+    background-color: rgb(129, 201, 223);
+}

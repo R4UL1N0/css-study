@@ -1,24 +1,60 @@
 .ball {
     aspect-ratio: 1;
-    background-color: chocolate;
     border-radius: 50%;
     
 }
 
 .square {
-    background-color: brown;
     aspect-ratio: 1;
 }
 
 .rectangle {
-    background-color: brown;
     aspect-ratio: 16 / 9;
 }
 
 .triangle {
-
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    aspect-ratio: 1;
 }
 
-.over-hidden {
-    overflow: hidden;
+.star {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    aspect-ratio: 1;
+}
+
+.left-arrow {
+    aspect-ratio: 16 / 9;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+
+.right-arrow {
+    aspect-ratio: 16 / 9;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.x-shape {
+    aspect-ratio: 1;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+
+.cross {
+    aspect-ratio: 1 / 1.5;
+    clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
+}
+
+.message {
+    aspect-ratio: 1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+.moon {
+    aspect-ratio: 1;
+    -webkit-mask: url('/assets/moon.svg') no-repeat center;
+    mask: url('/assets/moon.svg') no-repeat center;
+}
+
+.cloud {
+    aspect-ratio: 1;
+    -webkit-mask: url('/assets/cloud.svg') no-repeat center;
+    mask: url('/assets/cloud.svg') no-repeat center;
 }

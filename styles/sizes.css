@@ -1,5 +1,13 @@
+.micro {
+    width: clamp(5px, 10vw, 40px);
+}
+
+.tiny {
+    width: clamp(15px, 10vw, 100px);
+}
+
 .small {
-    width: clamp(50px, 30vw, 200px);
+    width: clamp(50px, 20vw, 200px);
 }
 
 .medium {
@@ -11,5 +19,5 @@
 }
 
 .giant {
-    width: clamp(500px, 30vw, 1000px);
+    width: clamp(400px, 30vw, 800px);
 }
